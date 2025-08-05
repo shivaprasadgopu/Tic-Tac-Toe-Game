@@ -66,4 +66,45 @@ body {
 }
 .hide{
     display:none;
+}@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 6vmin;
+    }
+
+    .container {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .game {
+        width: 90vmin;
+        height: auto;
+        gap: 2vmin;
+    }
+
+    .box {
+        width: 26vmin;
+        height: 26vmin;
+        font-size: 10vmin;
+    }
+
+    #reset-btn,
+    #new-btn {
+        width: 80%;
+        margin-top: 1rem;
+        font-size: 1rem;
+        padding: 0.75rem;
+    }
+
+    #msg {
+        font-size: 6vmin;
+    }
+
+    .msg-container {
+        height: auto;
+    }
 }
